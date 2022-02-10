@@ -1,7 +1,5 @@
 # IIRSA
 
-
-
 - [ ] Visualização geográfica dos projetos IIRSA, China e ILAT
 - [ ] Visualização interativa por país
 - [ ] Metodologia
@@ -12,3 +10,5 @@
 
 - [ ] Criação de plataforma (poderia utilizar um subdomino do lantri, p.ex: iirsa.lantri.org)
 - [ ] Integrar com MercoDocs
+
+## Teste
