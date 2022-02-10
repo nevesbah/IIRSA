@@ -20,10 +20,10 @@
 
 
 |Variáveis| Tipo| Exemplo |
-| ------- |-----|
-|geolocalização|`dict`|{x: geo01, y:geo02}
-|paises|`list`|
-|fonte de investimento| `list/tuple`|
+| ------- |-----|-----|
+|geolocalização|`dict`| {x: geo01, y:geo02}
+|paises|`list`||
+|fonte de investimento| `list/tuple`||
 
 
 ```
