@@ -12,3 +12,9 @@
 
 - [ ] Criação de plataforma (poderia utilizar um subdomino do lantri, p.ex: iirsa.lantri.org)
 - [ ] Integrar com MercoDocs
+
+## Comandos Git
+- git add .
+- git commit -m "mensagem"
+- git pull origin main
+- git push origin main
