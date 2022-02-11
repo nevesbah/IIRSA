@@ -1865,7 +1865,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Capricornio",
     codigo: "",
     nome_projeto:
@@ -1881,7 +1881,7 @@ export const iirsa = [
   },
   {
     inicio: "2011",
-    fim: "",
+    fim: "*",
     eixo: "Capricornio",
     codigo: "CAP88",
     nome_projeto: "AEROPUERTO DE ANTOFAGASTA",
@@ -1896,7 +1896,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Capricornio",
     codigo: "",
     nome_projeto: "AMPLIACI�N DEL COMPLEJO PORTUARIO MEJILLONES (FASE I)",
@@ -1911,7 +1911,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Mercosur-Chile",
     codigo: "",
     nome_projeto: "CENTRAL T�RMICA DE CICLO COMBINADO DE PUNTAS DEL TIGRE",
@@ -1926,7 +1926,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Capricornio",
     codigo: "",
     nome_projeto:
@@ -1942,7 +1942,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Hidrovia Paraguay-Parana",
     codigo: "",
     nome_projeto: "CIRCUNVALACI�N DE LA CIUDAD DE SANTA FE",
@@ -1957,7 +1957,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Peru-Brasil-Bolivia",
     codigo: "",
     nome_projeto:
@@ -1973,7 +1973,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Mercosur-Chile",
     codigo: "MCC04",
     nome_projeto:
@@ -1989,7 +1989,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Interoceanico Central",
     codigo: "",
     nome_projeto:
@@ -2005,7 +2005,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Del Sur",
     codigo: "",
     nome_projeto:
@@ -2021,7 +2021,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Capricornio",
     codigo: "",
     nome_projeto:
@@ -2037,7 +2037,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Del Sur",
     codigo: "",
     nome_projeto: "CONSTRUCCI�N DEL COMPLEJO FRONTERIZO HUA HUM",
@@ -2052,7 +2052,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Hidrovia Paraguay-Parana",
     codigo: "",
     nome_projeto: "DESV�O DEL ARROYO AGUAPEY",
@@ -2067,7 +2067,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Mercosur-Chile",
     codigo: "",
     nome_projeto:
@@ -2083,7 +2083,7 @@ export const iirsa = [
   },
   {
     inicio: "2012",
-    fim: "",
+    fim: "*",
     eixo: "Andino",
     codigo: "AND60",
     nome_projeto: "EXTENSI�N DEL OLEODUCTO NOR-PERUANO",
@@ -2098,7 +2098,7 @@ export const iirsa = [
   },
   {
     inicio: "2007",
-    fim: "",
+    fim: "*",
     eixo: "Amazonas",
     codigo: "AMA78",
     nome_projeto: "FERROV�A NORTE-SUR FASE II (A�AIL�NDIA - PALMAS)",
@@ -2113,7 +2113,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Mercosur-Chile",
     codigo: "",
     nome_projeto: "L�NEA DE TRANSMISI�N YACYRET� - BUENOS AIRES",
@@ -2128,7 +2128,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Interoceanico Central",
     codigo: "",
     nome_projeto: "MEJORAMIENTO COMPLEJO FRONTERIZO CHACALLUTA",
@@ -2143,7 +2143,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Amazonas",
     codigo: "AMA36",
     nome_projeto:
@@ -2159,7 +2159,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Amazonas",
     codigo: "AMA48",
     nome_projeto:
@@ -2175,7 +2175,7 @@ export const iirsa = [
   },
   {
     inicio: "2004",
-    fim: "",
+    fim: "*",
     eixo: "Amazonas",
     codigo: "AMA47",
     nome_projeto:
@@ -2191,7 +2191,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Interoceanico Central",
     codigo: "",
     nome_projeto: "MEJORAMIENTO DEL AEROPUERTO DE ARICA",
@@ -2206,7 +2206,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Capricornio",
     codigo: "",
     nome_projeto: "OBRAS DE ADECUACI�N DEL PUERTO DE ANTOFAGASTA",
@@ -2221,7 +2221,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Interoceanico Central",
     codigo: "IOC29",
     nome_projeto: "PASO DE FRONTERA SAN MAT�AS - C�CERES (PORTO LIM�O)",
@@ -2236,7 +2236,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Hidrovia Paraguay-Parana",
     codigo: "HPP58",
     nome_projeto:
@@ -2252,7 +2252,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Hidrovia Paraguay-Parana",
     codigo: "HPP59",
     nome_projeto:
@@ -2268,7 +2268,7 @@ export const iirsa = [
   },
   {
     inicio: "2015",
-    fim: "",
+    fim: "*",
     eixo: "Mercosur-Chile",
     codigo: "MCC94",
     nome_projeto:
@@ -2284,7 +2284,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Mercosur-Chile",
     codigo: "",
     nome_projeto:
@@ -2300,7 +2300,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Capricornio",
     codigo: "",
     nome_projeto:
@@ -2316,7 +2316,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Capricornio",
     codigo: "CAP102",
     nome_projeto: "PAVIMENTACI�N PASO OLLAG�E-CALAMA",
@@ -2331,7 +2331,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Capricornio",
     codigo: "CAP90",
     nome_projeto:
@@ -2347,7 +2347,7 @@ export const iirsa = [
   },
   {
     inicio: "2008",
-    fim: "",
+    fim: "*",
     eixo: "Interoceanico Central",
     codigo: "IOC36",
     nome_projeto:
@@ -2363,7 +2363,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Hidrovia Paraguay-Parana",
     codigo: "HPP29",
     nome_projeto:
@@ -2379,7 +2379,7 @@ export const iirsa = [
   },
   {
     inicio: "2004",
-    fim: "",
+    fim: "*",
     eixo: "Andino",
     codigo: "AND64",
     nome_projeto:
@@ -2395,7 +2395,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Mercosur-Chile",
     codigo: "MCC48",
     nome_projeto: "PUERTO TERRESTRE LOS SAUCES (LOS ANDES)",
@@ -2410,7 +2410,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Mercosur-Chile",
     codigo: "MCC52",
     nome_projeto:
@@ -2426,7 +2426,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Mercosur-Chile",
     codigo: "MCC41",
     nome_projeto:
@@ -2442,7 +2442,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Capricornio",
     codigo: "CAP06",
     nome_projeto:
@@ -2458,7 +2458,7 @@ export const iirsa = [
   },
   {
     inicio: "",
-    fim: "",
+    fim: "*",
     eixo: "Mercosur-Chile",
     codigo: "MCC61",
     nome_projeto: "SISTEMA DE ITAIP� (EXISTENTE)",
