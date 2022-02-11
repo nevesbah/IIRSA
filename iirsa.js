@@ -1,21 +1,5 @@
 export const iirsa = [
   {
-    inicio: "",
-    fim: "1947",
-    eixo: "Capricornio",
-    codigo: "CAP91",
-    nome_projeto:
-      "CORREDOR FERROVIARIO BIOCE�NICO, TRAMO CHILE (ANTOFAGASTA � SOCOMPA)",
-    grupo: "G01",
-    etapa: "CONCLUIDO",
-    investimento_total: 501000000,
-    pais: "CHILE",
-    fonte_investimento: "Tesouro Nacional",
-    geolocalizacao: "-24.042218,-69.349385",
-    info_extra: "http://iirsa.org/proyectos/detalle_proyecto.aspx?h=1317",
-    info_fonte: "IIRSA"
-  },
-  {
     inicio: "2000",
     fim: "2002",
     eixo: "Escudo Guayanes",

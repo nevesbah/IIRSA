@@ -64,7 +64,13 @@
     .groupBy("fim")
     .summarise({ total_count: { investimento_total: "sum" } })
     .arrange({ fim: "ascending" });
-  //.mutate({ date_as_date: row => new Date(row.fim) });
+
+  //data 2nd section - investiments
+  let invest_per_source;
+  $: invest_per_source = iirsa_data
+    .groupBy("fonte_investimento")
+    .summarise({ total_invest: { investimento_total: "sum" } })
+    .arrange({ total_invest: "ascending" });
 </script>
   
   <label for="country_select">Seleccionar Pais:</label>
@@ -81,25 +87,45 @@
       <!-- main chart -->
       <Graphic width={825} height={825}>
   
-      <!-- contents of 1st section -->
+      <!-- 1st section -->
         <Section
           x1={0}
-          x2={0.49}
-          y1={0}
+          x2={1}
+          y1={0.05}
           y2={0.49}
           {padding}
           flipY
           scaleX={scaleBand().domain(projects_per_year.column('fim')).padding(1)}
-          scaleY={scaleLinear().domain(projects_per_year.domain('total_count'))}
+          scaleY={scaleLinear().domain(projects_per_year.domain('total_count')).nice()}
         >
    
           <!-- contents of 1st section -->
-          <PointLayer x={projects_per_year.column('fim')} y={projects_per_year.column('total_count')} opacity={0.6} fill={"purple"} />
-  
-  
+          <PointLayer x={projects_per_year.column('fim')} y={projects_per_year.column('total_count')} opacity={0.6} fill={"purple"} /> 
+         
           <XAxis title="Ano" tickCount = {5}/>
           <YAxis title="Inversiones (USD)" />
         </Section>
+
+        <!-- 2nd section -->
+        <Section
+          x1={0}
+          x2={1}
+          y1={0.55}
+          y2={1}
+          {padding}
+          flipY
+          scaleX={scaleBand().domain(invest_per_source.column('fonte_investimento')).padding(1)}
+          scaleY={scaleLinear().domain(invest_per_source.domain('total_invest')).nice()}
+        >
+
+        <!-- contents of 2nd section -->
+          <PointLayer x={invest_per_source.column('fonte_investimento')} y={invest_per_source.column('total_invest')} opacity={0.6} fill={"magenta"} /> 
+         
+          <XAxis title="Fuente de Inversion" tickCount = {5}/>
+          <YAxis title="Inversiones (USD)" />
+        </Section>
+          
+        
       </Graphic>
     </div>
   </div>
