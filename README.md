@@ -11,13 +11,6 @@
 - [ ] Criação de plataforma (poderia utilizar um subdomino do lantri, p.ex: iirsa.lantri.org)
 - [ ] Integrar com MercoDocs
 
-<<<<<<< HEAD
-## Comandos Git
-- git add .
-- git commit -m "mensagem"
-- git pull origin main
-- git push origin main
-=======
 ## Exemplo variaveis
 ## Pendências
 
@@ -59,4 +52,3 @@ info_fonte: "IIRSA"
 fonte_investimento: {fonte:[tesouro, bid], valor: [10,20]}
 
 ```
->>>>>>> e4d6e84d4a05573d151473cd5c43f656899c7b9e
