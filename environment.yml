@@ -11,4 +11,5 @@ dependencies:
   - plotly
   - seaborn
   - matplotlib
+  - openpyxl
   

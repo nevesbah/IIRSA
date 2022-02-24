@@ -35,8 +35,8 @@ info_fonte: "IIRSA"
 
 ```
 
-- [ ] Problemas de enconde (acentuação no json)
-- [ ] Paises duplicados
+- [ ] Problemas de enconde (acentuação no json) de xlxs to json
+- [ ] Paises duplicados (passar para lista)
 - [ ] Geolocalização (dict)
 
 
