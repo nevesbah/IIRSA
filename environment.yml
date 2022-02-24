@@ -1,0 +1,14 @@
+name: env_iirsa
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - pandas
+  - numpy
+  - jupyterlab
+  - plotly
+  - seaborn
+  - matplotlib
+  

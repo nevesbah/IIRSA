@@ -14,6 +14,7 @@
 ## Exemplo variaveis
 ## Pendências
 
+```
 {
 inicio: "",
 fim: "n/a",
@@ -31,6 +32,9 @@ geolocalizacao: [-24.042218,-69.349385],
 info_extra: "http://iirsa.org/proyectos/detalle_proyecto.aspx?h=1317",
 info_fonte: "IIRSA"
 }
+
+```
+
 - [ ] Problemas de enconde (acentuação no json)
 - [ ] Paises duplicados
 - [ ] Geolocalização (dict)
@@ -50,5 +54,33 @@ info_fonte: "IIRSA"
 [{tesouro:10},{bndes:20}]
 
 fonte_investimento: {fonte:[tesouro, bid], valor: [10,20]}
+
+```
+## Versionamento
+
+```
+git add .
+git commit -m "comentário"
+git pull origin main
+git push origin main
+
+```
+
+# Habilitar ambiente virtual
+
+```
+git pull origin main && conda activate env_iirsa && conda env update --prune
+
+```
+
+
+## Criação do ambiente virtual
+
+```
+conda config --set pip_interop_enabled True
+conda config --set env_prompt '({name})'
+conda config --add envs_dirs ./env
+conda env create -f environment.yml
+git pull origin main && conda env_visualiza_dados && conda env update --prune
 
 ```
